@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanu Sharma</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="logo.png" onclick="myname()" class="logo">
+            <div class="intro"  style="position: relative;left:50px"><h4>Hi!</h4><br>I'm Tanu Sharma</div>
+
+        </div>
+        <ul>
+        
+            <li>
+                <a href="Tanu_Sharma_Resume.pdf" style="text-decoration: none;">My Resume</a> 
+            </li>
+            
+            <li>
+               
+               <div>
+                <p onmouseover="on()" style="background-color: gold;border:none">Contact Details</p>
+                    <div id="overlay" onclick="off()">
+                            <div id="text">
+                                <form action="/file.html">
+                                    <h5>Mobile Number:</h5>
+                                    <p>6375856676</p>
+                                    <h5>Email id:</h5>
+                                    <p>tanu72363@gmail.com</p>
+                                    <h5>Address:</h5>
+                                    <p>Plot No. 10, Gayatri Colony,Alwar(Raj.)</p>  
+                                    <div><button type="submit" class="btn" style="background-color: grey; position: relative;" onclick="close()">Close</button></div>
+                                </div>
+                        </div>
+                    </div>
+               
+            </li>
+             
+        </ul>
+        
+    </nav>
+    <div class="mid">
+        <h1>
+            <div><span>always being</span></div>
+            <div class="message">
+                <div class="word1">creative</div>
+                <div class="word2">positive</div>
+                <div class="word3">productive</div>
+            </div>
+        </h1>
+    </div>
+    <div class="crd">
+        <div class="card" id="card1">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <div><h2>About Me</h2></div>
+                    <img src="about_me.png" style="background-size: cover;margin-top: 50px;"></div>
+                  <div class="flip-card-back" style="font-size: 20px;padding-top: 30px;">
+                    <p>
+                        My Name is Tanu Sharma.
+                    </p>
+                    <p> I'm currently working as Programmer analyst in Cognizant technology solution,Gurgaon. </p>
+                    <p>I have 2 year of experience in ASP.NET Technology,sql server and various other technologies and languages. </p>
+                    <p>I have huge interest in front end development and looking for a job role of front end developer</p>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="card" id="card2">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                  <h2>My Skills</h2>
+                  <img src="My_skills.png" style="margin-top: 60px;"></div>
+                  <div class="flip-card-back">
+                    <div class="w3-container">
+                    <p>Asp.net MVC</p>
+                    <div class="w3-border">
+                        <div class="w3-grey" style="height:24px;width:70%"></div>
+                    </div>
+                    <p>Databases (MySQL, SQL server)</p>
+                    <div class="w3-border">
+                        <div class="w3-grey" style="height:24px;width:90%"></div>
+                    </div>
+                    <p>Web Technologies (HTML, CSS, JS,Bootstrap)</p>
+                    <div class="w3-border">
+                        <div class="w3-grey" style="height:24px;width:100%"></div>
+                    </div>
+                    <p>Problem Solving Skills (C,C#,Python)</p>
+                    <div class="w3-border">
+                        <div class="w3-grey" style="height:24px;width:70%"></div>
+                    </div>
+                    <p>Operating System (Windows,Linux)</p>
+                    <div class="w3-border">
+                        <div class="w3-grey" style="height:24px;width:70%"></div>
+                    </div>
+                    <p>Tools (Visual studio, Git, MSOffice)</p>
+                    <div class="w3-border">
+                        <div class="w3-grey" style="height:24px;width:100%"></div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+                  
+            </div>
+        
+
+        <div div class="card" id="card3">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <h2>My Projects</h2>
+                    <img src="my_projects.png" style="margin-top: 70px;">
+                  </div>
+                  <div class="flip-card-back" style="text-align: left;">
+                    <h2>1. C-Vaccine.</h2> <br>
+                    <h2>
+                        2. Route Optimization and railway reservation system(SIH2020,finalist).
+                    </h2>
+                    <br>
+                    <h2>3. The Real time Mood Sentiment Analyzer.</h2><br>
+                    <p>- To know about the projects in detail please refer resume on the top of website.</p>
+                    
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<script>
+    function on() {
+            document.getElementById("overlay").style.display = "block";
+        }
+</script>
+
+</body>
+
+</html>
