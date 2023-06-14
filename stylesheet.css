@@ -357,6 +357,8 @@ border: 3px solid rgba(128, 128, 128, 0.522);
     }
     .message{
         font-size: 10px;
+        margin-top: 5px;
+        margin-left: -20px;
 
     }
     
