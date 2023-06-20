@@ -243,17 +243,17 @@ h1 span {
     background-repeat: no-repeat;
     background-size: cover;
     color: yellow;
-    animation: introanimate 3s ease-out;
+    /*  animation: introanimate 3s ease-out; */
     position: relative;
     z-index: 1;
 }
 
 
-@keyframes introanimate{
+/* @keyframes introanimate{
     0%{width:0px;}
     .5%{width:250px;}
     100%{width:300px;}
-}
+} */
 
 
 .card-body {
